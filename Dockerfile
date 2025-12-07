@@ -1,5 +1,6 @@
 FROM node:alpine3.20
 
+RUN mkdir /app
 WORKDIR /app
 
 COPY . .
