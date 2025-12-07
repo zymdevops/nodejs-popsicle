@@ -11,5 +11,5 @@ RUN apk update && apk upgrade &&\
     apk add --no-cache bash &&\
     chmod +x index.js &&\
     npm install
-
+USER 10086
 CMD ["node", "index.js"]
